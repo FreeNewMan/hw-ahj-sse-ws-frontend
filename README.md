@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/r4jng2ws5xb915jm?svg=true)](https://ci.appveyor.com/project/FreeNewMan/hw-ahj-sse-ws-frontend)
+
 # Домашнее задание к занятию "8. EventSource, Websockets"
 
 Правила сдачи задания:
