@@ -9,7 +9,17 @@ let sessionUserName;
 let regForm;
 let chatRoom;
 
-const ws = new WebSocket('ws://localhost:3000/ws');
+
+//https://hw-ahj-sse-ws-backend.onrender.com
+
+//const endpoint = 'hw-ahj-sse-ws-backend.onrender.com';
+
+const endpoint = 'localhost:3000';
+
+const ws = new WebSocket(`ws://${endpoint}/ws`);
+
+//const ws = new WebSocket('ws://localhost:3000/ws');
+
 
 const loginUser = (prm) => {
   const messageForSend = { type: 'login', user: prm };
