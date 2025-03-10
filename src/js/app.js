@@ -12,11 +12,11 @@ let chatRoom;
 
 //https://hw-ahj-sse-ws-backend.onrender.com
 
-//const endpoint = 'hw-ahj-sse-ws-backend.onrender.com';
+const apiurl = 'wss://hw-ahj-sse-ws-backend.onrender.com';
 
-const endpoint = 'localhost:3000';
+//const apiurl = 'ws://localhost:3000/ws';
 
-const ws = new WebSocket(`ws://${endpoint}/ws`);
+const ws = new WebSocket(apiurl);
 
 //const ws = new WebSocket('ws://localhost:3000/ws');
 
